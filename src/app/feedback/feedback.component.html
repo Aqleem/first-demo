@@ -1,0 +1,14 @@
+<div class="row" *ngFor="let obj of feedback">
+  <div class="story" >
+      <figure class="story__shape">
+          <img src= "{{obj.storyImg}}" alt="Person on a tour" class="story__img">
+          <figcaption class="story__caption">{{obj.storyName}}</figcaption>
+      </figure>
+      <div class="story__text">
+          <h3 class="heading-tertiary u-margin-bottom-small">{{obj.storyHeading}}</h3>
+          <p>
+              {{obj.storytext}}
+          </p>
+      </div>
+  </div>
+</div>

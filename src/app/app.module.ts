@@ -10,6 +10,9 @@ import { NatureComponent } from './nature/nature.component';
 import { WayComponent } from './way/way.component';
 import { LIFEComponent } from './life/life.component';
 import { TheSeaComponent } from './the-sea/the-sea.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { TheSeaComponent } from './the-sea/the-sea.component';
     NatureComponent,
     WayComponent,
     LIFEComponent,
-    TheSeaComponent
+    TheSeaComponent,
+    FeedbackComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
